@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--mobile===========================-->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="true" />
+  <!--mobile===========================-->
+  <title>Document</title>
+  <link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+        <div class="header__top-wrapper">
+          <div class="header__container">
+            <div class="header__top">
+              <div class="header__logo">
+                <a href="#">
+                  <picture class="logo__img">
+                    <source srcset="images/src/logo-mob.svg" media="(max-width:900px)">
+                    <img src="images/src/logo.svg" alt="">
+                  </picture>
+                </a>
+              </div>
+              <nav class="header__nav">
+                <a href="tel:+74951875757" class="menu__mobile-phone">
+                  <img src="images/src/icon/phone.svg" alt="">
+                </a>
+                <div class="menu__btn">
+                  МЕНЮ
+                </div>
+                <div class="close">
+                  <img src="images/src/content/x.png" alt="">
+                </div>
+                <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#">
+                      <img src="images/src/icon/home.svg" alt="">
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link header__menu-sub" href="#">
+                      ВЫБРАТЬ МЕБЕЛЬ
+                    </a>
+                    <ul class="header__sub-list">
+                      <li class="header__sub-item">
+                        <a class="header__sub-link" href="#">
+                          Мебель для кухни
+                        </a>
+                      </li>
+                      <li class="header__sub-item">
+                        <a class="header__sub-link" href="#">
+                          Детские комнаты
+                        </a>
+                      </li>
+                      <li class="header__sub-item">
+                        <a class="header__sub-link" href="#">
+                          Спальни
+                        </a>
+                      </li>
+                      <li class="header__sub-item">
+                        <a class="header__sub-link" href="#">
+                          Шкафы и столы
+                        </a>
+                      </li>
+                      <li class="header__sub-item">
+                        <a class="header__sub-link" href="#">
+                          Гостинные
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#">
+                      НАШИ РАБОТЫ
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a class="header__menu-link" href="#">
+                      КОНТАКТЫ
+                    </a>
+                  </li>
+                  <button class="header__btn-mobile" data-fancybox data-src="#modal-recall">
+                    Заказать звонок
+                  </button>
+                  <ul class="header__mobile-list">
+                    <li class="header__item-mobile">
+                      <a href="#">
+                        <img src="images/src/icon/inst.svg" alt="">
+                      </a>
+                    </li>
+                    <li class="header__item-mobile">
+                      <a href="#">
+                        <img src="images/src/icon/fb.svg" alt="">
+                      </a>
+                    </li>
+                    <li class="header__item-mobile">
+                      <a href="#">
+                        <img src="images/src/icon/post.svg" alt="">
+                        info@sims-easy.ru
+                      </a>
+                    </li>
+                  </ul>
+                </ul>
+              </nav>
+              <div class="header__top-info">
+                <a href="tel:+74951875757" class="header__top-phone">
+                  +7 (495) 187-57-57
+                </a>
+                <button class="header__top-btn" data-fancybox data-src="#modal-recall">
+                  Заказать обратный звонок
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="breadcrumbs contacts-mob">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li> <a href="#">Главная</a></li>
+              <li> <span>Контакты</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="map">
+        <div class="map__img" style="background-image: url('../images/src/content/map.jpg');">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4506.465707763092!2d37.67090966777726!3d55.615363893619644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab391b631a5cd%3A0xd4d3971ba6bdc1c8!2z0JrQsNGB0L_QuNC50YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMTUzMDQ!5e0!3m2!1sru!2sua!4v1617550691580!5m2!1sru!2sua"
+            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="map__info">
+          <div class="map__info-inner">
+            <div class="map__info-box">
+              <div class="map__info-title title">
+                Контакты
+              </div>
+              <div class="map__info-subtitle">Наш адрес</div>
+              <a href="#" class="map__info-adress">
+                Москва, ул. Каспийская 5/2
+              </a>
+              <a href="tel:+74951875757" class="map__info-tel">
+                +7 (495) 187-57-57
+              </a>
+            </div>
+            <div class="map__info-box">
+              <div class="map__info-subtitle">Открыты для предложений</div>
+              <a href="#" class="map__info-post">
+                info@sims-easy.ru
+              </a>
+            </div>
+            <div class="map__info-box">
+              <div class="map__info-subtitle">Мы в соцсетях</div>
+              <a href="#" class="map__info-link">
+                <img src="images/src/icon/inst.svg" alt="">
+              </a>
+              <a href="#" class="map__info-link">
+                <img src="images/src/icon/fb.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="map__info-btn button" data-fancybox data-src="#modal-recall">
+            Позвоните мне
+          </div>
+        </div>
+
+      </section>
+
+      <section class="project contacts">
+        <div class="project__container container">
+          <div class="project__inner">
+            <div class="project__post">
+              <div class="project__title">
+                Оставьте отзыв о нашей продукции
+              </div>
+              <div class="project__text">
+                Нам важно мнение каждого покупателя. Расскажите, что Вам понравилось или не понравилось, что нужно
+                изменить в сервисе. Мы обязательно прислушаемся!
+              </div>
+              <form class="project__form">
+                <div class="project__box">
+                  <div class="project__item">
+                    <span>
+                      Имя <span class="project__star">*</span>
+                    </span>
+                    <input class="project__input" type="text" placeholder="Иванов Иван Иванович" required>
+                  </div>
+                  <div class="project__item">
+                    <span>
+                      Телефон <span class="project__star">*</span>
+                    </span>
+                    <input class="project__input" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+                  </div>
+                </div>
+                <div class="project__box">
+                  <div class="project__item">
+                    <span>
+                      Регион<span class="project__star">*</span>
+                    </span>
+                    <input class="project__input" type="text" placeholder="Иванов Иван Иванович" required>
+                  </div>
+                  <div class="project__item">
+                    <span>
+                      № договора<span class="project__star">*</span>
+                    </span>
+                    <input class="project__input" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+                  </div>
+                </div>
+                <div class="project__box-texarea">
+                  <span>Комментарии<span class="project__star">*</span></span>
+                  <textarea class="project__textarea" placeholder="Текст отзыва, предложения или жалобы"
+                    required></textarea>
+                </div>
+                <div class="project__box-btn">
+                  <button class="project__box-attach contact">
+                    Прикрепить документы проекта
+                  </button>
+                  <button class="project__box-button button" data-fancybox data-src="#modal-send">
+                    Отправить проект
+                  </button>
+                </div>
+                <div class="project__box-text">Нажимая кнопку "Отправить проект", вы соглашаетесь с
+                  условиями
+                  <a href="#">Политики конфиденциальности</a>
+                </div>
+              </form>
+            </div>
+            <div class="project__img contact">
+              <div class="contacts__reviews-wrapper">
+                <div class="slider-reviews__item">
+                  <div class="slider-reviews__box">
+                    <div class="slider-reviews__text">
+                      Спасибо всему коллективу компании за детскую мебель и шкаф купе. Качество и цена супер!
+                    </div>
+                    <div class="slider-reviews__user">
+                      Алиса Власов
+                    </div>
+                  </div>
+                  <div class="slider-reviews__img">
+                    <img src="images/src/content/sliderReviews1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="slider-reviews__item">
+                  <div class="slider-reviews__box">
+                    <div class="slider-reviews__text">
+                      Сервисом и монтажом остался полностью доволен. Благодарю за хорошую работу и советы.
+                    </div>
+                    <div class="slider-reviews__user">
+                      Николай Мамонтов
+                    </div>
+                  </div>
+                  <div class="slider-reviews__img">
+                    <img src="images/src/content/sliderReviews2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__call-box">
+          <div class="footer__call-text">
+            Закажите обратный звонок для консультации со специалистом
+          </div>
+          <button class="footer__call-btn" data-fancybox data-src="#modal-recall">
+            Перезвоните мне
+          </button>
+        </div>
+      </div>
+      <div class="footer__bg">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__logo">
+              <a href="#">
+                <img src="images/src/footerLogo.svg" alt="">
+              </a>
+            </div>
+            <div class="footer__info-inner">
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <span class="footer__link">КАТАЛОГ МЕБЕЛИ</span>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Мебель для кухни</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Детские комнаты</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Спальни</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Шкафы и столы</a>
+                </li>
+                <li class="footer__item">
+                  <a href="#" class="footer__link">Гостинные</a>
+                </li>
+              </ul>
+              <div class="footer__social">
+                <div class="footer__social-text">
+                  МЫ В СОЦСЕТЯХ
+                </div>
+                <a href="#" class="footer__link">
+                  <img src="images/src/icon/inst.svg" alt="">
+                </a>
+                <a href="#" class="footer__link">
+                  <img src="images/src/icon/fb.svg" alt="">
+                </a>
+              </div>
+              <div class="footer__contacts">
+                <div class="footer__contacts-text">
+                  КОНТАКТЫ
+                </div>
+                <a href="#" class="footer__contacts-adress">
+                  Москва, ул. Каспийская 5/2
+                </a>
+                <a href="tel:+74951875757" class="footer__contacts-link">
+                  +7 (495) 187-57-57
+                </a>
+              </div>
+              <div class="footer__copyright">
+                <div class="footer__copyright-text">
+                  <span>© SIMS-EASY 2021. </span>
+                  Все права защищены. Сайт не является публичной офертой.
+                  <a href="#">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__copyright-designer">
+                  © Design by
+                  <a href="#">Kidryaev Daniel</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="modal-measurer" class="modal-measurer">
+    <div class="modal-measurer__title title">
+      ВЫЗВАТЬ ЗАМЕРЩИКА ОНЛАЙН
+    </div>
+    <form class="modal-measurer__form form" action="#" method="POST" data-subject="Sims - заявка">
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Имя <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formName" type="text" placeholder="Иванов Иван Иванович" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Телефон <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formPhone" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+        </div>
+      </div>
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Город <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input" type="text" placeholder="Москва или Московская область" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Адрес <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input" type="text" placeholder="ул. Название, д. 0, корп. 0, подъезд 0, кв. 0"
+            required>
+        </div>
+      </div>
+      <div class="modal-measurer__box-texarea">
+        <span>Комментарии (необязательно)</span>
+        <textarea class="modal-measurer__textarea"
+          placeholder="Укажите размеры гарнитура по стенам (длина, ширина, высота в разных точках). Есть ли детали на которые необходимо обратить внимание. Ваши пожелания по материалу."></textarea>
+      </div>
+      <div class="modal-measurer__box-send">
+        <button class="modal-measurer__box-button button">
+          Отправить проект
+        </button>
+        <div class="modal-measurer__box-text">Нажимая кнопку "Отправить проект", вы соглашаетесь с
+          условиями
+          <a href="#">Политики конфиденциальности</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="modal-cost" class="modal-measurer">
+    <div class="modal-measurer__title title">
+      РАССЧИТАТЬ СТОИМОСТЬ <br> КУХОННОГО ГАРНИТУРА ОНЛАЙН
+    </div>
+    <form class="modal-measurer__form form" action="#" method="POST" data-subject="Автоподбор - заявка">
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Имя <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formName" type="text" placeholder="Иванов Иван Иванович" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Телефон <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formPhone" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+        </div>
+      </div>
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Город <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input" type="text" placeholder="Москва или Московская область" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Адрес <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input" type="text" placeholder="ул. Название, д. 0, корп. 0, подъезд 0, кв. 0"
+            required>
+        </div>
+      </div>
+      <div class="modal-measurer__box-texarea">
+        <span>Комментарии (необязательно)</span>
+        <textarea class="modal-measurer__textarea"
+          placeholder="Укажите размеры гарнитура по стенам (длина, ширина, высота в разных точках). Есть ли детали на которые необходимо обратить внимание. Ваши пожелания по материалу."></textarea>
+      </div>
+      <div class="modal-measurer__box-send">
+        <button class="modal-measurer__box-button button">
+          Отправить проект
+        </button>
+        <div class="modal-measurer__box-text">Нажимая кнопку "Отправить проект", вы соглашаетесь с
+          условиями
+          <a href="#">Политики конфиденциальности</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div id="modal-photo" class="modal-measurer modal-photo">
+    <div class="modal-measurer__title title">
+      ЗАКАЗАТЬ МЕБЕЛЬ КАК НА ФОТОГРАФИИ
+    </div>
+    <form class="modal-measurer__form form" action="#" method="POST" data-subject="Sims - заявка">
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Имя <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formName" type="text" placeholder="Иванов Иван Иванович" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Телефон <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formPhone" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+        </div>
+      </div>
+      <div class="modal-measurer__box-send">
+        <button class="modal-measurer__box-button button">
+          Отправить проект
+        </button>
+        <div class="modal-measurer__box-text">Нажимая кнопку "Отправить проект", вы соглашаетесь с
+          условиями
+          <a href="#">Политики конфиденциальности</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="modal-recall" class="modal-measurer modal-recall">
+    <div class="modal-measurer__title title">
+      ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК
+    </div>
+    <form class="modal-measurer__form form" action="#" method="POST" data-subject="Автоподбор - заявка">
+      <div class="modal-measurer__box">
+        <div class="modal-measurer__item">
+          <span>
+            Имя <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formName" type="text" placeholder="Иванов Иван Иванович" required>
+        </div>
+        <div class="modal-measurer__item">
+          <span>
+            Телефон <span class="modal-measurer__star">*</span>
+          </span>
+          <input class="modal-measurer__input formPhone" type="text" placeholder="Ваш телефон +7 (999) 999-99-99" required>
+        </div>
+      </div>
+      <div class="modal-measurer__box-send">
+        <button class="modal-measurer__box-button button">
+          Отправить проект
+        </button>
+        <div class="modal-measurer__box-text">Нажимая кнопку "Отправить проект", вы соглашаетесь с
+          условиями
+          <a href="#">Политики конфиденциальности</a>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="modal-send" class="modal-send">
+    <div class="modal-send__title">
+      Ваша заявка успешно отправлена!
+    </div>
+    <div class="modal-send__text">
+      В ближайшее время с Вами свяжется наш специалист.
+    </div>
+  </div>
+
+  <p class="form__error-name">Имя должно содержать не менее трёх символов <sup>*</sup> </p>
+  <p class="form__error-phone">Введите пожалуйста коректный номер телефона <sup>*</sup> </p>
+
+
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>

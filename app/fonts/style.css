@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: local('Big Shoulders Display Regular'), local('Big-Shoulders-Display-Regular'),
+        url('BigShouldersDisplay-Regular.woff2') format('woff2'),
+        url('BigShouldersDisplay-Regular.woff') format('woff'),
+        url('BigShouldersDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
